@@ -9,4 +9,16 @@
 .PIDA{background-color: #A52A2A;}
 .SAS{background-color: #00FFFF;}
 .REC{background-color: #008000;}
-.TIT{background-color:#be1a8d;padding: 40px;margin: 0;}
+
+
+header, footer{
+    background-color:rgb(168, 73, 9);
+    padding: 20px;
+    color: rgb(245, 248, 245);
+    text-align: center;
+}
+
+nav a {
+    color: #fffb00; /* color que quieras */
+    text-decoration: none;
+}

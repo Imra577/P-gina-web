@@ -1,0 +1,11 @@
+header, footer{
+    background-color:rgb(168, 73, 9);
+    padding: 20px;
+    color: rgb(245, 248, 245);
+    text-align: center;
+}
+
+nav a {
+    color: #fffb00; 
+    text-decoration: none;
+}
