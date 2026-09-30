@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title> formulario</title>
+        <link rel="stylesheet" href="estilo.css">
+    <header>
+            <h2>CONTACTO</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="horario.html">Horario</a>
+                <a href="formulario.html">Formulario</a>
+            </nav>
+        </header>
+    </head>
+        <body>
+                <main>
+                    <form>
+                        <fieldset class="Formulario">
+                            <legend>Formulario de contacto</legend>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required><br><br>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br><br>
+                            <label for="mensaje">Mensaje:</label><br>
+                            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+                        </fieldset>
+                        <fieldset class="Aficiones">
+                            <legend>Aficiones</legend>
+                            <label for="lectura">Me gustan los videojuegos:</label>
+                            <input type="checkbox" id="lectura" name="lectura"><br><br>
+                            <label for="deportes">Me gusta hacer deporte:</label>
+                            <input type="checkbox" id="deportes" name="deportes"><br><br>
+                            <label for="musica">Me gusta escuchar música:</label>
+                            <input type="checkbox" id="musica" name="musica"><br><br>
+                        </fieldset>
+                        <fieldset class="Genero">
+                            <legend>Género</legend>
+                            <label for="masculino">Masculino:</label>
+                            <input type="radio" id="masculino" name="genero" value="masculino"><br><br>
+                            <label for="femenino">Femenino:</label>
+                            <input type="radio" id="femenino" name="genero" value="femenino"><br><br>
+                            <label for="otro">Prefiero no decirlo:</label>
+                            <input type="radio" id="Prefiero no decirlo" name="genero" value="Prefiero no decirlo"><br><br>
+                        </fieldset>
+                        <fieldset class="EstadoCivil">
+                            <legend>Estado civil</legend>
+                            <label for="soltero">Soltero:</label>
+                            <input type="radio" id="soltero" name="estado_civil" value="soltero"><br><br>
+                            <label for="casado">Casado:</label>
+                            <input type="radio" id="casado" name="estado_civil" value="casado"><br><br>
+                            <label for="divorciado">Divorciado:</label>
+                            <input type="radio" id="divorciado" name="estado_civil" value="divorciado"><br><br>
+                            <label for="viudo">Viudo:</label>
+                            <input type="radio" id="viudo" name="estado_civil" value="viudo"><br><br>
+                        <fieldset>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar">
+                        </fieldset>
+
+                    </form>
+                </main>
+            <footer>
+                <p>CIFP VIRGEN DE GRACIA&copy; 2026</p>
+            </footer>
+      </body>
+</html>
