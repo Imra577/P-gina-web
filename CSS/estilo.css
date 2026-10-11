@@ -18,12 +18,12 @@ td,th{
     padding: 8px;
 }
 nav a {
-    color: #fffb00; /* color que quieras */
+    color: #fffb00; 
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #000000; /* color al pasar el ratón */
+    color: #000000; 
 }
 .aficiones {
     background-color: #e8f5e9;

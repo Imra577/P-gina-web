@@ -2,6 +2,7 @@
 <html lang="es">
     <head>
         <link rel="stylesheet" href="CSS/ACT1.css">
+        <link rel="stylesheet" href="CSS/menu.css">
     </head>
     <body>
         <header>
@@ -9,12 +10,22 @@
                 <a href="index.html">Inicio</a>
                 <a href="horario.html">Horario</a>
                 <a href="formulario.html">Formulario</a>
-                <a href="ACT1.html">Ejercicio 1</a>
+                <details class="menu-ejercicios">
+                    <summary>Ejercicios</summary>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="ACT1.html">Ejercicio 1</a></li>
+                            <li><a href="ACT2.html">Ejercicio 2</a></li>
+                            <li><a href="ACT1pdf2.html">Ejercicio 3</a></li>
+                        </ul>
+                    </div>
+                </details>
             </nav>
-            <h1>Esto es un encabezado h1</h1>
-            <h2 class="titulo">Esto es un encabezado h2</h2>
+            
         </header>
-        <img src="Img/cuaderno.png" alt="Cuaderno" class="img centro" width="200px" height="200px">
+        <h1>Esto es un encabezado h1</h1>
+        <h2 class="titulo">Esto es un encabezado h2</h2>
+        <img class="imagen-cuaderno" src="Img/cuaderno.png" alt="Cuaderno">
         <p class="texto">Esto es un párrafo con un <mark>tamaño 30px</mark><br>
         y <ins>un salto de linea</ins>.El estilo utiliza una <strong>fuente verdana</strong></p>
         <hr/>

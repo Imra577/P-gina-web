@@ -1,14 +1,32 @@
 .titulo {color: red;}
-body p {font-size: 30px; font-family: verdana;}
-.img.centro {
+.imagen-cuaderno {
     display: block;
-    margin: 20px auto;
+    width: 250px;
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto 0;
 }
+body p {font-size: 30px;
+     font-family: verdana;
+    
+}
+
+
 .footer {font-size: 10px;
     border: 2px solid rgb(4, 19, 156);
-    background: lightgray;
+    background-color: lightgray;
     padding: 0;
     margin: 30px auto;
     margin: 20px;
     
+}
+nav a {
+    color: #fffb00; 
+    text-decoration: none;
+}
+header{
+    background-color:rgb(168, 73, 9);
+    padding: 20px;
+    color: rgb(245, 248, 245);
+    text-align: center;
 }

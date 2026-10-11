@@ -1,0 +1,44 @@
+.menu-ejercicios {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-ejercicios summary {
+    color: #fffb00;
+    cursor: pointer;
+    display: inline-block;
+    list-style: none;
+}
+
+.menu-ejercicios summary::-webkit-details-marker {
+    display: none;
+}
+
+.menu-ejercicios summary:hover,
+.menu-ejercicios summary:focus-visible {
+    color: #000;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    min-width: 140px;
+    padding: 6px;
+    background-color: rgb(168, 73, 9);
+    border: 1px solid #000;
+    text-align: left;
+}
+
+.submenu a {
+    display: inline-block;
+    padding: 6px 4px;
+    white-space: nowrap;
+}
+
+.submenu ul {
+    margin: 0;
+    padding-left: 24px;
+    list-style-type: circle;
+}

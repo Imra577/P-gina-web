@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+}
+
+.titulo {
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 12px;
+     text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.opciones-cuadradas {
+    list-style-type: square;
+}
+nav a {
+    color: #fffb00; 
+    text-decoration: none;
+}
+header{
+    background-color:rgb(168, 73, 9);
+    padding: 20px;
+    color: rgb(245, 248, 245);
+    text-align: center;
+}
