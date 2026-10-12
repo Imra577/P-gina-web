@@ -1,0 +1,65 @@
+ body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../Img/dybala.jpg");
+    background-size: 100%;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    font-family: "Times New Roman";
+}
+
+        .caja {
+            background-color: rgba(100, 120, 140, 0.85);
+            color: white;
+            margin: 15px 10px;
+            padding: 15px;
+            height: 190px;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 13px;
+            text-align: left;
+        }
+
+        .texto {
+            background-color: rgba(230, 230, 180, 0.8);
+            margin: 0px 10px;
+            padding: 15px;
+            font-size: 13px;
+        }
+
+        .rosa {
+            background-color: rgb(204, 102, 179);
+        }
+
+        .verde {
+            font-weight: bold;
+            border: 1px solid #127c35;
+        }
+        i {
+            background-color: white;
+            color: black;
+        }
+        
+       .mando {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+nav a {
+    color: #fffb00; 
+    text-decoration: none;
+}
+header{
+    background-color:rgb(168, 73, 9);
+    padding: 20px;
+    color: rgb(245, 248, 245);
+    text-align: center;
+}
