@@ -1,5 +1,6 @@
 body {
     font-family: "Times New Roman";
+    
 }
 
 p {
@@ -42,11 +43,11 @@ p {
 }
 
 .tabla2 th {
-    background-color: #dddddd;
+    background-color: #b9b9b9;
 }
 
 .tabla2 td {
-    background-color: #dddddd;
+    background-color: #b9b9b9;
 }
 
 .tabla2 .verde td {
